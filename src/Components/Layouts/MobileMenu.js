@@ -7,14 +7,13 @@ function MobileMenu({ isActive, closeMenu }) {
         <div>
           <h1 className="text-2xl text-blue-800 font-semibold w-30 mt-7 mx-5 ">
             Nick Charalabidis
-
           </h1>
         </div>
         <div onClick={closeMenu}>
           <img
             className="cursor-pointer  mr-10 mt-4 w-4 mt-7"
             src="../../assets/images/icon/close-menu-icon.png"
-          />
+          alt="cursor"/>
         </div>
       </div>
 
