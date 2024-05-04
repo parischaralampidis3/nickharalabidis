@@ -18,7 +18,7 @@ function Shtandart() {
 
             <div className="mt-5 mb-10">
               <p className="text-sm   mx-auto  w-full md:-mt-0 lg:w-2/4   leading-8 text-gray-700  text-center">
-                1,20 x 0.80 cm. Oil pastels and colored pencils.
+                1,20 x 0.80 m. Oil pastels and colored pencils.
               </p>
             </div>
           </div>
