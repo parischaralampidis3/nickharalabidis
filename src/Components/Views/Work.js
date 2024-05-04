@@ -158,7 +158,7 @@ function Work() {
         return (index >= page * n) & (index < (page + 1) * n);
       },[])
     );
-  }, [page, paintings]);
+  }, [page]);
 
   return (
     <div className="container-fluid  w-full h-full">
