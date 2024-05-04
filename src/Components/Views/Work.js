@@ -154,34 +154,37 @@ function Work() {
 
   useEffect(() => {
     setFilterData(
-      paintings.slice(page * n, (page + 1) * n)
+      paintings.filter((item, index) => {
+        return (index >= page * n) & (index < (page + 1) * n);
+      },[])
     );
-  }, [page]); // Removed paintings from dependency array since it doesn't seem to affect the useEffect
+  }, [page, paintings]);
 
   return (
-    <div className="container-fluid w-full h-full">
+    <div className="container-fluid  w-full h-full">
       <div>
-        <div className="grid grid-cols-1 md:grid-cols-2 text-cyan-900 bg-white rounded-lg p-14">
-          {filterData.map((item) => (
-            <div key={item.title}>
-              <h1 className="text-center mt-16 p-5 text-2xl font-semibold mb-4">
-                {item.title}
-              </h1>
-              <img
-                className="bg-cyan-500 shadow-lg w-2/4 mx-auto shadow-gray-300/50"
-                src={item.image}
-                alt="painting"
-              />
-              <a
-                className="rounded-lg w-2/4 p-6 mt-16 mx-auto block bg-blue-500 text-center text-white font-semibold"
-                href={item.link}
-              >
-                {item.title}
-              </a>
-            </div>
-          ))}
+        <div className=" grid grid-cols-0 mt-10 md: grid-cols-0  text-cyan-900 bg-white rounded-lg lg:grid-cols-2 p-14">
+          {filterData &&
+            filterData.map((item, index) => (
+              <div class="" key={item.title}>
+                <h1 className="text-center w-full mt-16 p-5 text-2xl font-semibold mb-4">
+                  {item.title}
+                </h1>
+                <img
+                  className="bg-cyan-500 shadow-lg w-52  sm:w-2/4 lg: w-1/4 mx-auto shadow-gray-300/50"
+                  src={item.image}
+                  alt="painting"
+                />
+                <a
+                  className="rounded-lg w-4/5 p-1 mt-16 mx-auto block bg-blue-500 text-center text-white font-semibold lg:w-2/4 p-4 lg:p-5"
+                  href={item.link}
+                >
+                  {item.title}
+                </a>
+              </div>
+            ))}
         </div>
-        <div className="flex mt-12 mb-12 mx-auto">
+        <div className="flex mt-12 mb-12 mx-auto  ">
           <ReactPaginate
             containerClassName={"pagination"}
             pageClassName={"page-item"}

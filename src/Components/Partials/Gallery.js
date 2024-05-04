@@ -11,22 +11,22 @@ function Gallery() {
   return (
     <div className="w-2/3 sm:w-30  mt-12 mx-auto  md:w-2/5">
       <div className="container rounded-md h-3/4 bg-blue-900 w-40 lg:mx-2 w-full ">
-        <h1 className="text-sm md:text-base  font-semibold text-white p-3 lg:text-xl">
+        <h1 className="text-lg md:text-base  font-semibold text-white p-3 lg:text-xl">
           Latest Paintings
         </h1>
       </div>
 
       {/** --------- first portfolio project ---------- */}
-      <div className="p-5 mx-2  mt-5 bg-blue-50">
+      <div className="p-5 mx-2  mt-2 bg-blue-50">
         <div>
-          <h1 className="text-sm mx-5 md: text-base font-semibold text-blue-900 lg:text-xl">
+          <h1 className="text-lg mx-5 md: text-base font-semibold text-blue-900 lg:text-xl">
             Adadjento
           </h1>
         </div>
 
         <div className="p-5 mt-2">
           <img
-            className="bg-cyan-500 shadow-lg w-1/2 mx-auto shadow-gray-300/50"
+            className="bg-cyan-500 shadow-lg w-full mx-auto shadow-gray-300/50 lg:w-1/2"
             src="..\assets\images\project_images\painting_1.png"
             alt="project_image"
           />
@@ -39,14 +39,14 @@ function Gallery() {
       <div className={isActive ? "hidden" : ""}>
         <div className=" p-5 mx-2 mt-5 bg-blue-50">
           <div>
-            <h1 className="mt-2 text-base font-semibold text-blue-900 lg:text-xl">
+            <h1 className="mt-2 text-lg font-semibold text-blue-900 lg:text-xl">
               English Gallera
             </h1>
           </div>
 
           <div className="mt-8">
             <img
-              className="bg-cyan-500 w-1/2 mx-auto shadow-lg shadow-gray-300/50"
+              className="bg-cyan-500 w-full mx-auto shadow-lg shadow-gray-300/50 lg:w-1/2"
               src="..\assets\images\project_images\painting_2.png"
               alt="project_image"
             />

@@ -10,9 +10,10 @@ function AmericoVespouci() {
             Americo Vespouci
           </h1>
 
-          <div className=" sm:w-full md:w-4/4 lg:w-4/4 mb-4">
+          <div className=" mb-4">
             <img
-              className="bg-cyan-500 w-1/3 mx-auto shadow-lg shadow-gray-300/50"
+              className="w-2/3 bg-cyan-500 mt-8 mx-auto shadow-lg shadow-gray-300/50  lg:w-2/4"
+
               src="..\assets\images\project_images\painting_6.png"
               alt="project_image"
             />
@@ -24,7 +25,7 @@ function AmericoVespouci() {
             </div>
           </div>
           <div className="mb-10">
-            <p className="text-base w-3/5  mx-auto mt-10 w-full md:-mt-0 lg:w-2/5 leading-8 text-gray-700  text-left">
+            <p className="text-base  mx-auto mt-0 text-center leading-6 w-3/4  md:-mt-0 lg:w-2/5 leading-8 text-gray-700  text-left">
               Training sailing ship of the Italian navy, dedicated to the
               Italian companion of Christopher Columbus, Americo Vespucci, whose
               name was given to the entire continent.
@@ -36,7 +37,7 @@ function AmericoVespouci() {
 
       <div className="container w-full mt-16 mx-auto">
         <a
-          className="rounded-lg mx-16 px-6 p-3 mt-12 block bg-blue-500  text-center text-white font-semibold md: w-2/4 lg: w-1/4 lg:mx-auto"
+          className="rounded-lg mx-16 px-6 p-3 mt-12 block bg-blue-500  text-center text-white font-semibold  w-2/3 lg:w-1/3 mx-auto"
           href="/work"
         >
           Go to gallery

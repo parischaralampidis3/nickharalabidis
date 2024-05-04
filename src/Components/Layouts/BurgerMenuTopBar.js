@@ -23,8 +23,7 @@ function BurgerMenuTopBar() {
           </div>
           <div onClick={isActive ? closeMenu : openMenu}>
             <img
-              className="p-2 md:p-1 mr-7 cursor-pointer w-10 mt-5"
-
+              className="p-0 md:p-0 mr-7 cursor-pointer w-10 mt-5 text-gray-100"
               src="../../assets/images/icon/menu-icon.jpg"
               alt="menu-icon"
             />

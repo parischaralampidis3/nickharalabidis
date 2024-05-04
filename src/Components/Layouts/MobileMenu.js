@@ -11,7 +11,7 @@ function MobileMenu({ isActive, closeMenu }) {
         </div>
         <div onClick={closeMenu}>
           <img
-            className="cursor-pointer  mr-10 mt-4 w-4 mt-7"
+            className="cursor-pointer p-0 mr-10 mt-4 w-4 mt-7"
             src="../../assets/images/icon/close-menu-icon.png"
           alt="cursor"/>
         </div>
@@ -20,22 +20,22 @@ function MobileMenu({ isActive, closeMenu }) {
       <ul className="flex  flex-col justify-center items-center text-right text-blue-800 text-4xl font-semibold mt-24">
         <li>
           <a className="" href="/">
-            home
+          Home
           </a>
         </li>
         <li className="mt-16">
           <a className="" href="/work">
-            work
+          Gallery
           </a>
         </li>
         <li className="mt-16">
           <a className="sub-mobile-navigation-items" href="/about">
-            about
+          About
           </a>
         </li>
         <li className="mt-16">
           <a className="sub-mobile-navigation-items" href="/contact">
-            contact
+          Contact
           </a>
         </li>
       </ul>
