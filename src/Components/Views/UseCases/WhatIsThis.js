@@ -8,8 +8,9 @@ function EnglishGallera() {
 
           <h1 className="text-center mb-6 text-4xl font-bold">What is this?</h1>
 
-          <div className=" sm:w-full md:w-4/4 lg:w-4/4 mb-4">
+          <div className="mb-4">
             <img
+
               className="w-3/4 bg-cyan-500 mt-8 mx-auto shadow-lg shadow-gray-300/50  lg:w-2/4"
 
               src="..\assets\images\project_images\painting_3.png"
