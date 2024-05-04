@@ -156,7 +156,7 @@ function Work() {
     setFilterData(
       paintings.filter((item, index) => {
         return (index >= page * n) & (index < (page + 1) * n);
-      })
+      },[])
     );
   }, [page, paintings]);
 
