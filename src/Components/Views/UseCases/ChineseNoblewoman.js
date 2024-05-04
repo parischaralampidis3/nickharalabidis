@@ -5,7 +5,7 @@ function ChineseNoblewoman() {
     <div className="container mx-auto mb-16">
       <div>
         <div className="flex flex-col mt-12 mb-16 items-center justify-center">
-          <h1 className="text-center mb-6 text-4xl font-bold">Chinese Noblewoman</h1>
+          <h1 className="text-center mb-6 text-4xl w-2/3 font-bold">Chinese Noblewoman</h1>
 
           <div className="  mb-4">
             <img
