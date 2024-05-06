@@ -148,19 +148,25 @@ export default function Contact() {
           ) : (
             "Send Message"
           )}
-        </button>
-      </form>
+        </button> 
+        <div >
 
-      {isSubmitSuccessful && isSuccess && (
-        <div className="mt-3 text-sm text-center text-green-500">
+                       {isSubmitSuccessful && isSuccess && (
+        <div className="mt-6 text-lg bg-green-500 p-1 text-white font-semibold text-center text-green-500">
           {message || "Success. Message sent successfully"}
         </div>
       )}
       {isSubmitSuccessful && !isSuccess && (
-        <div className="mt-3 text-sm text-center text-red-500">
+        <div className="mt-6 text-lg bg-red-500 text-white p-1 text-center text-red-500">
           {message || "Something went wrong. Please try later."}
         </div>
       )}
+        </div>
+
+      </form>
+
+
+
     </>
   );
 }

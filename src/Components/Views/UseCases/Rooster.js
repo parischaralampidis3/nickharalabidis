@@ -31,7 +31,7 @@ function Rooster() {
       </div>
       <div className="container w-full mt-16 mx-auto">
         <a
-          className="rounded-lg mx-16 px-6 p-3 mt-12 block bg-blue-500  text-center text-white font-semibold  w-2/3  lg:w-1/3 mx-auto"
+          className="rounded-lg mx-16 px-6 p-3 mt-12 block bg-blue-500  text-center text-white font-semibold  w-2/3  lg:w-2/5 mx-auto"
           href="/work"
         >
           Go to gallery
