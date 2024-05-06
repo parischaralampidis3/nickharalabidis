@@ -8,7 +8,6 @@ function LetMeStand() {
           <h1 className="text-center mb-6 text-4xl font-bold">Let me stand</h1>
 
           <div className="mb-4">
-
             <img
               className="w-2/3 bg-cyan-500 mt-8 mx-auto shadow-lg shadow-gray-300/50  lg:w-2/4"
               src="..\assets\images\project_images\painting_7.png"
@@ -22,16 +21,22 @@ function LetMeStand() {
             </div>
           </div>
           <div className="mb-10">
-           
-            <p className="text-base  mx-auto mt-10 w-2/3 md:-mt-0 lg:w-1/3 leading-8 text-gray-700  text-left">
-            The standing horse is bridged with the poem of the great Alexandrian Poet Constantinos Cavafy. Here let me stand and see nature a little.. brilliant blue and yellow shore.
+            <p className="text-base  mx-auto mt-10 w-2/3 md:-mt-0 lg:w-1/3 leading-8 text-gray-700  text-center">
+              The standing horse is bridged with the poem of the great
+              Alexandrian Poet Constantinos Cavafy. Here let me stand and see
+              nature a little.. brilliant blue and yellow shore.
             </p>
           </div>
         </div>
       </div>
-              <div className="container w-full mt-16 mx-auto">
-            <a className="rounded-lg mx-16 px-6 p-3 mt-12 block bg-blue-500  text-center text-white font-semibold  w-2/3  lg:w-1/3 mx-auto"href="/work">Go to gallery</a>
-          </div>
+      <div className="container w-full mt-16 mx-auto">
+        <a
+          className="rounded-lg mx-16 px-6 p-3 mt-12 block bg-blue-500  text-center text-white font-semibold  w-2/3  lg:w-1/3 mx-auto"
+          href="/work"
+        >
+          Go to gallery
+        </a>
+      </div>
     </div>
   );
 }

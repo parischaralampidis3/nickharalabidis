@@ -10,7 +10,7 @@ function Reflection() {
           <div className=" mb-4">
             <img
 
-              className="w-2/3 bg-cyan-500 mt-8 mx-auto shadow-lg shadow-gray-300/50  lg:w-3/4"
+              className="w-3/4 bg-cyan-500 mt-8 mx-auto shadow-lg shadow-gray-300/50  lg:w-3/4"
               src="..\assets\images\project_images\painting_25.png"
               alt="project_image"
             />

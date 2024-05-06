@@ -25,8 +25,8 @@ function EnglishGallera() {
           </div>
           <div className="mb-10">
            
-            <p className="text-base  mx-auto mt-10 w-2/3 md:-mt-0 lg:w-2/3 leading-8 text-gray-700  text-left">
-              the intense question of a statuesque bull in front of a tiny ball for him that seems to ... don't be afraid
+            <p className="text-base  mx-auto mt-10 w-2/3 md:-mt-0 lg:w-2/3 leading-8 text-gray-700  text-center">
+              the intense question of a statuesque bull in front of a tiny ball for him that seems to ... don't be afraid.
             </p>
           </div>
         </div>

@@ -163,7 +163,7 @@ function Work() {
   return (
     <div className="container-fluid  w-full h-full">
       <div>
-        <div className=" grid grid-cols-0 mt-10 md: grid-cols-0  text-cyan-900 bg-white rounded-lg lg:grid-cols-2 p-14">
+        <div className=" grid grid-cols-0 mt-1 md: grid-cols-0  text-cyan-900 bg-white rounded-lg lg:grid-cols-2 p-14">
           {filterData &&
             filterData.map((item, index) => (
               <div class="" key={item.title}>

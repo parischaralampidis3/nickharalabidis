@@ -22,7 +22,7 @@ function ChargingBull() {
           </div>
           <div className="mb-10">
            
-            <p className="text-base  mx-auto mt-10 w-2/3 md:-mt-0 lg:w-full leading-8 text-gray-700  text-left">
+            <p className="text-base  mx-auto mt-10 w-2/3 md:-mt-0 lg:w-full leading-8 text-gray-700  text-center">
              When the bull is defeated in the arena. He always loses spectacularly.
             </p>
           </div>

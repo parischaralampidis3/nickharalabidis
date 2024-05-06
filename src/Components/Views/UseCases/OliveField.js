@@ -25,7 +25,7 @@ function OliveField() {
           <div className="mb-10">
            
             <p className="text-base  mx-auto mt-10 w-full md:-mt-0 lg:w-full leading-8 text-gray-700  text-left">
-       God's path to martyrdom
+       God's path to martyrdom.
             </p>
           </div>
         </div>

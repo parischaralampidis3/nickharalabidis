@@ -22,7 +22,8 @@ function DutchShip() {
           </div>
           <div className="mb-10">
            
-            <p className="text-base  mx-auto mt-10 w-2/3 md:-mt-0 lg:1/3 leading-8 text-gray-700  text-left">
+            <p className="text-base  mx-auto mt-10 w-2/3 md:-mt-0 lg:1/3 leading-8 text-gray-700  text-center">
+
 
               Dutch Sailing Ship "Crescent" (replica docked in Amsterdam and sails all the seas of the earth.)
             </p>

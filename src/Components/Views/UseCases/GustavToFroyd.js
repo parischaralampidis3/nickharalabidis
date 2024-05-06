@@ -24,8 +24,8 @@ function EnglishGallera() {
           </div>
           <div className="mb-10">
          
-            <p className="text-base  mx-auto mt-10 w-2/3 md:-mt-0 lg:w-1/3 leading-8 text-gray-700  text-left">
-            A painting that narrates the overwhelming turning point in the life of the great Austrian composer Gustav Mahler, when he, as a result of his leveling behavior towards Alma Mahler's wife, was abandoned by her, forced as an outcast of a love, with his heart uprooted like the comforting tree next to him to take refuge in Sigmund Freud's psychiatrist
+            <p className="text-base  mx-auto mt-10 w-2/3 md:-mt-0 lg:w-1/3 leading-8 text-gray-700  text-center">
+            A painting that narrates the overwhelming turning point in the life of the great Austrian composer Gustav Mahler, when he, as a result of his leveling behavior towards Alma Mahler's wife, was abandoned by her, forced as an outcast of a love, with his heart uprooted like the comforting tree next to him to take refuge in Sigmund Freud's psychiatrist.
 
             </p>
           </div>

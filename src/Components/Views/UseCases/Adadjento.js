@@ -34,10 +34,9 @@ function Adadjento() {
           </div>
         </div>
       </div>
-      <div className="container w-full mt-16 mx-auto">
+      <div className="container w-full  mx-auto">
         <a
-          className="rounded-lg mx-16 px-6 p-3 mt-12 block bg-blue-500  text-center text-white font-semibold  w-1/3 lg: w-3/5 lg:mx-auto"
-          
+          className="rounded-lg w-2/3 px-6 mx-16 p-3  block bg-blue-500  text-center text-white font-semibold   lg:w-2/5 lg:mx-auto"
           href="/work"
         >
           Go to gallery

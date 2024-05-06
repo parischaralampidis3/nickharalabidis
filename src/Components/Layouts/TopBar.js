@@ -5,10 +5,10 @@ import { faPhone, faEnvelope } from "@fortawesome/free-solid-svg-icons";
 
 function TopBar() {
   return (
-    <div className="w-2/4 mx-10 mt-10 h-10 md:mx-auto">
+    <div className="w-4/5 mx-4  mt-5  h-10 md:mx-auto">
       <div className="flex flex-row items-center justify-around">
         <div className="flex flex-col p-0 sm:flex-row justify-start items-center  p-2 font-semibold">
-          <div className="flex flex-row items-center text-sm md:text-base w-40">
+          <div className="flex flex-row items-center  text-sm md:text-base w-40">
             <FontAwesomeIcon icon={faPhone} />
             <h3 className="mx-1 text-blue-900  ">(+30) 6977500987</h3>
           </div>

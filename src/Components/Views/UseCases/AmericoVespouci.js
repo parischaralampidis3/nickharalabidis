@@ -5,15 +5,13 @@ function AmericoVespouci() {
     <div className="container mx-auto mb-16">
       <div>
         <div className="flex flex-col mt-12 mb-16 items-center justify-center">
-        
           <h1 className="text-center mb-6 text-4xl font-bold">
-            Americo Vespouci
+            Ship Americo Vespouci
           </h1>
 
           <div className=" mb-4">
             <img
               className="w-2/3 bg-cyan-500 mt-8 mx-auto shadow-lg shadow-gray-300/50  lg:w-2/4"
-
               src="..\assets\images\project_images\painting_6.png"
               alt="project_image"
             />
@@ -33,7 +31,6 @@ function AmericoVespouci() {
           </div>
         </div>
       </div>
-
 
       <div className="container w-full mt-16 mx-auto">
         <a

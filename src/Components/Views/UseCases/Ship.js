@@ -23,7 +23,7 @@ function Ship() {
           </div>
           <div className="mb-10">
            
-            <p className="text-base  mx-auto mt-10 w-2/3 md:-mt-0 lg:w-2/3 leading-8 text-gray-700  text-left">
+            <p className="text-base  mx-auto mt-10 w-2/3 md:-mt-0 lg:w-2/3 leading-8 text-gray-700  text-center">
        Ship on the open sea. cargo ship Liberty type in high seas in midships.
             </p>
           </div>

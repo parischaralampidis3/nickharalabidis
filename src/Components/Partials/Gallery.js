@@ -30,7 +30,6 @@ function Gallery() {
             src="..\assets\images\project_images\painting_1.png"
             alt="project_image"
           />
-
         </div>
       </div>
 
@@ -50,23 +49,13 @@ function Gallery() {
               src="..\assets\images\project_images\painting_2.png"
               alt="project_image"
             />
-
-     
           </div>
-
-
-
-
-        
-
-    
-    
         </div>
 
         {/** ----------third second portfolio---------------------------- */}
       </div>
 
-       <div className="mt-12 mb-12 rounded shadow-lg shadow-black-500/50 bg-gray-400 w-100 text-center mx-auto p-2 text-white font-semibold">
+      <div className="mt-12 mb-12 rounded shadow-lg shadow-black-500/50 bg-gray-400 w-100 text-center mx-auto p-2 text-white font-semibold">
         <button onClick={handleClick}>
           {message ? "Hide Paintings" : "Show More Paintings"}
         </button>
@@ -74,8 +63,6 @@ function Gallery() {
       <div className="mt-3 mb-12 rounded shadow-lg shadow-black-500/50 bg-blue-600 w-100 text-center mx-auto p-2 text-white font-semibold">
         <a href="/work">Go to Gallery</a>
       </div>
-
-     
     </div>
   );
 }

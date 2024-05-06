@@ -22,7 +22,7 @@ function ChineseNoblewoman() {
           </div>
           <div className="mb-10">
            
-            <p className="text-base  mx-auto mt-10 w-2/3 md:-mt-0 lg:w-2/3 leading-8 text-gray-700  text-left">
+            <p className="text-base  mx-auto mt-10 w-2/3 md:-mt-0 lg:w-2/3 leading-8 text-gray-700  text-center">
            Chinese noblewoman A dreamlike representation of a real woman that the painter saw outside the Herodian theater.
             </p>
           </div>

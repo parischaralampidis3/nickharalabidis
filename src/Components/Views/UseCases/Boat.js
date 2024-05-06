@@ -5,7 +5,7 @@ function Boat() {
     <div className="container mx-auto mb-16">
       <div>
         <div className="flex flex-col mt-5 items-center justify-center">
-          <h1 className="text-center p-3 mb-6 text-4xl font-bold">Romantic boat sunset</h1>
+          <h1 className="text-center p-3 mb-6 text-4xl font-bold">Boat at the sunset</h1>
 
           <div className="mb-4">
             <img

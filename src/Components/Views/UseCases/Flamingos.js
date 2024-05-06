@@ -24,7 +24,7 @@ function Flamingos() {
           </div>
           <div className="mb-10">
            
-            <p className="text-base  mx-auto mt-10 w-2/3 md:-mt-0 lg:w-full leading-8 text-gray-700  text-left">
+            <p className="text-base  mx-auto mt-10 w-2/3 md:-mt-0 lg:w-full leading-8 text-gray-700  text-center">
        Eight flamingos gathered on the background of their colors.
             </p>
           </div>
