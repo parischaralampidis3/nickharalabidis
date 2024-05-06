@@ -30,7 +30,7 @@ function About() {
           </p>
 
   
-          <p className="text-lg w-2/3 text-gray-600 mt-5 leading-5">
+          <p className="text-lg w-2/3 text-gray-600 mt-5 mb-10 leading-5">
             Painting is a personal, but also an internal need for expression, it
             is an inherent and inalienable element of the individual psyche of
             the painter who sees everything around him "with different eyes" and

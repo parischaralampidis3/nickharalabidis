@@ -71,7 +71,7 @@ function Gallery() {
           {message ? "Hide Paintings" : "Show More Paintings"}
         </button>
       </div>
-      <div className="mt-3 rounded shadow-lg shadow-black-500/50 bg-blue-600 w-100 text-center mx-auto p-2 text-white font-semibold">
+      <div className="mt-3 mb-12 rounded shadow-lg shadow-black-500/50 bg-blue-600 w-100 text-center mx-auto p-2 text-white font-semibold">
         <a href="/work">Go to Gallery</a>
       </div>
 
