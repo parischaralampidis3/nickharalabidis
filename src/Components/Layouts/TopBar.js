@@ -5,7 +5,7 @@ import { faPhone, faEnvelope } from "@fortawesome/free-solid-svg-icons";
 
 function TopBar() {
   return (
-    <div className="w-2/4 mx-auto mt-10 h-10">
+    <div className="w-2/4 mx-10 mt-10 h-10 md:mx-auto">
       <div className="flex flex-row items-center justify-around">
         <div className="flex flex-col p-0 sm:flex-row justify-start items-center  p-2 font-semibold">
           <div className="flex flex-row items-center text-sm md:text-base w-40">
