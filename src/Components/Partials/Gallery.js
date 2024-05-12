@@ -20,7 +20,7 @@ function Gallery() {
       <div className="p-5 mx-2  mt-2 bg-blue-50">
         <div>
           <h1 className="text-lg mx-5 md: text-base font-semibold text-blue-900 lg:text-xl">
-            Adadjento
+            Adagietto
           </h1>
         </div>
 

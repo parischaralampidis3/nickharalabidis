@@ -5,7 +5,7 @@ function Adadjento() {
     <div className="container mx-auto mb-16">
       <div>
         <div className="flex flex-col mt-12 mb-16 items-center justify-center">
-          <h1 className="text-center mb-6 text-4xl font-bold">Adadjento</h1>
+          <h1 className="text-center mb-6 text-4xl font-bold">Adagietto</h1>
 
           <div className=" mb-4">
             <img
@@ -22,12 +22,12 @@ function Adadjento() {
           </div>
           <div className="mb-10">
             <p className="text-base  mx-auto mt-0 text-center leading-6 w-3/4  md:-mt-0 lg:w-2/5 leading-8 text-gray-700  text-left">
-              The Antajetto is the middle part of Gustav Mahler's 5th Symphony,
+              The Adagietto is the middle part of Gustav Mahler's 5th Symphony,
               dedicated, after his doctor, to his ardent love for Alma, who,
               reading the score with her inner voice as a musician, wept from
               the musical specificity of the work, which it catalyzed the whole
               painting, the sea, the horizon, the sky, the whole range of its
-              colors. Antiageto is a soundtrack to Luchino Visconti's film
+              colors. Adagietto is a soundtrack to Luchino Visconti's film
               'Death in Venice' and completely colors its plot dramatically, as
               characterizes the painting as a whole.
             </p>

@@ -17,13 +17,14 @@ function BurgerMenuTopBar() {
       <div className="mt-0 block bg-blue-600 z-50 lg:hidden">
         <div className="flex items-center justify-around mt-0">
           <div>
-            <h1 className="text-2xl text-gray-100 font-semibold w-30 mt-5 mx-8 ">
+            <a href="/" className="text-2xl text-gray-100 font-semibold w-30 mt-5 mx-8 ">
+
               Nick Charalabidis
-            </h1>
+            </a>
           </div>
           <div onClick={isActive ? closeMenu : openMenu}>
             <img
-              className="p-0 md:p-0 mr-7 cursor-pointer w-10 mt-5 text-gray-100"
+              className="p-0 md:p-0 mr-7 cursor-pointer w-10 mt-5 mb-5 text-gray-100"
               src="../../assets/images/icon/menu-icon.jpg"
               alt="menu-icon"
             />

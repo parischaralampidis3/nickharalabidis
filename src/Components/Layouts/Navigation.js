@@ -4,9 +4,9 @@ function Navigation() {
   return (
     <div className="box-border">
       <div className="bg-blue-500 w-3/5 h-screen p-10">
-        <h1 className="text-gray-100 text-left text-xl mr-12 font-extrabold ">
+        <a href="/" className="text-gray-100 text-left text-xl mr-12 font-extrabold ">
           Nick Haralabidis
-        </h1>
+        </a>
 
         <div className="container">
           <div className=" flex flex-column ">

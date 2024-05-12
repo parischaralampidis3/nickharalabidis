@@ -45,7 +45,7 @@ function Routing (){
                 <Route path="/contact" element={<Contact/>}/>
                 <Route path="/about" element={<About/>}/>
 
-                <Route path="/adadjento" element={<Adadjento/>}/>
+                <Route path="/adagietto" element={<Adadjento/>}/>
                 <Route path="/englishGallera" element={<EnglishGallera/>}/>
                 <Route path = "/whatIsThis" element={<WhatIsThis/>}/>
                 <Route path = "/gustavToFroyd" element={<GustavToFroyd/>}/>

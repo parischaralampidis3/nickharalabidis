@@ -4,9 +4,9 @@ import "../../App.css";
 function Work() {
   const paintings = [
     {
-      title: "Adadjento",
+      title:"Adagietto",
       image: "../assets/images/project_images/painting_1.png",
-      link: "/adadjento",
+      link: "/adagietto",
     },
     {
       title: "English Gallera",
